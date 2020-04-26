@@ -1,6 +1,8 @@
 最近打算做一个关于魂斗罗的强化学习训练，于是在网上找了一些怎么搭建Gym搭建的资料，现在做一个记录
 
 魂斗罗的gym强化学习环境我已经搭建好了,并且已经打包发布到Pypi上了，[点击这里](https://lossyou.com/post/Gym-Contra)有关项目的详细说明
+
+整个[gym_sample](https://github.com/OuYanghaoyue/gym_sample)环境我已经上传到git，有兴趣的同学可以自己clone或者fork下来看看样例[gym_sample](https://github.com/OuYanghaoyue/gym_sample)
 <!-- more -->
 ## 综述
 Reinforcement Learning 已经经过了几十年的发展，发展壮大。近些年来，跟随着机器学习的浪潮开始发展壮大。多次战胜围棋冠军柯洁，以及在DOTA2、星际争霸等游戏中超凡表现，成为了众人追捧的明星。目前OpenAI作为世界NO.1的AI研究机构，构建的GYM，成为衡量强化学习算法的标准工具。通过OpenAI 的Gym直接构建自己的环境，从而利用目前现有的算法，直接求解模型。
@@ -207,8 +209,8 @@ register(
 
 ```
 import gym
-import import gym_test.env#!!!!!!!!!!!!!!!!!!!!!!这个一定要加上！！！！！！！！！！！！！！！！！！！！！！！！
-env = gym.make('MyEnv-v0')
+import gym_test.env
+env = gym.make('MYGUESSNUMBER-v0')
 ```
 
 您必须在PYTHONPATH中安装gym_sample目录或从父目录来使用您自定义的gym环境。
