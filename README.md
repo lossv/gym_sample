@@ -211,7 +211,7 @@ import import gym_test.env#!!!!!!!!!!!!!!!!!!!!!!这个一定要加上！！！�
 env = gym.make('MyEnv-v0')
 ```
 
-您必须在PYTHONPATH中安装gym_sample目录或从父目录来使用您自定义的gym_sample。
+您必须在PYTHONPATH中安装gym_sample目录或从父目录来使用您自定义的gym环境。
 
 ## 例如
 
